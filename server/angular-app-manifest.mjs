@@ -2,34 +2,34 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://hazimharon230.github.io/my-resume-angular/',
+  baseHref: './',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/my-resume-angular"
+    "route": "/"
   },
   {
     "renderMode": 2,
-    "route": "/my-resume-angular/hobbies"
+    "route": "/hobbies"
   },
   {
     "renderMode": 2,
-    "route": "/my-resume-angular/contact"
+    "route": "/contact"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/my-resume-angular",
-    "route": "/my-resume-angular/**"
+    "redirectTo": "/",
+    "route": "/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 745, hash: 'fbd3f5dcb093fe84ae7cd72c6118c023b5383a4702b5a0ae839042a0c6c00da6', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1002, hash: 'c93e46a7db209abbb265c478341872995e7c0cd0a51704f2db718235a08e45f4', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'hobbies/index.html': {size: 3174, hash: '0c9e8b6348d111afe5346bfb3dc20da8023ace3b50662dd812c81c5f2ad9e0f0', text: () => import('./assets-chunks/hobbies_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 3033, hash: 'acececa027590b305b659263f784b3602177b4ef4976474636b7a373a3bf560b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'contact/index.html': {size: 3268, hash: '48a0b52bb75c1d5b682d564bb10f63cb30022901acab1dd48927aba3939f5127', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 697, hash: '2c400727f39691a80e6e70d27423573460b8ba02d2319e0a8e2286612dcf3256', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 954, hash: '25b2cb232b47c6284b6fd3bb4d30ccc9ecd64883f921dbee9f3c3a8d08918136', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'hobbies/index.html': {size: 2982, hash: 'e67c2b60803f73b4b56053030cc744022b73330ef407ce52d29e3b7ef8cd08ee', text: () => import('./assets-chunks/hobbies_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 2841, hash: 'a453d25dcc0a01316a6f6aaf5330b9f89d195f169d8f2c159756fa0dbbd6e9d4', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 3076, hash: '5e37a7b0c73d2b6d00ed7da870fe1d831d880d4aa8623d183ada3484eaba0ee3', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
     'styles-ZD265ECN.css': {size: 690, hash: 'bPQMFkHOKuw', text: () => import('./assets-chunks/styles-ZD265ECN_css.mjs').then(m => m.default)}
   },
 };

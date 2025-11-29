@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://hazimharon230.github.io/my-resume-angular',
+  basePath: '.',
   supportedLocales: {
   "en-US": ""
 },

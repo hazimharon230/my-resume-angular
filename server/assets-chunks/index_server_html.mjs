@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>MyResumeAngular</title>
-  <base href="https://hazimharon230.github.io/my-resume-angular/">
+  <base href="./">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-ZD265ECN.css"></head>
