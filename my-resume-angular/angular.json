@@ -24,6 +24,7 @@
             "styles": [
               "src/styles.css"
             ],
+            "outputPath": "docs",
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
